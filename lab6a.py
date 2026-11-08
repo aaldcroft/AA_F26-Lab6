@@ -1,15 +1,21 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Abby Aldcrft 
+# Date:11-07-26
 # Purpose: Create Sets.
 # Usage: ./lab6a.py
 
 # TO DO 1: Complete the functions below.
 
 def buildtheSet(divisor):
-    # Complete this function
+    numbers = set()  
+    for i in range(0,101):
+        if i % divisor == 0:
+            numbers.add(i)
+    return numbers
+   
+
 def main():
 
     s3 = buildtheSet(3)
