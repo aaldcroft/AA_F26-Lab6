@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Abby Aldcrft 
+# Date:11-07-26
 # Purpose: Creating dictionary.
 # Usage: ./lab6d.py
 
