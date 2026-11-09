@@ -6,7 +6,19 @@
 # Purpose: Use Dictionary for Structured Data.
 # Usage: ./lab6g.py
 
-# TO DO 1: Create function add_movie(). 
-# TO DO 2: Call the function 4 times.
-# TO DO 3: Print the database as instructed in readme.md file.
-# TO DO 4: Run the script. Take screenshot of code and script.
+movie_list = []
+def add_movies(name,director,year,runtime):
+   movie= {
+      "name":name,
+      "director":director,
+      "year":year,
+      "runtime":runtime}
+   movie_list.append(movie)
+   
+def main():
+      add_movies("Incantation","Kevin Ko","2022","1h50m")
+      add_movies("Internal Sunshine of the Spotless Mind","Michel Gondry","2004","1h48m")
+      add_movies("Girl, Interrupted","James Mangold","1999","2h7m")
+      print(movie_list)
+
+main()   
