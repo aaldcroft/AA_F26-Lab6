@@ -19,6 +19,8 @@ def main():
       add_movies("Incantation","Kevin Ko","2022","1h50m")
       add_movies("Internal Sunshine of the Spotless Mind","Michel Gondry","2004","1h48m")
       add_movies("Girl, Interrupted","James Mangold","1999","2h7m")
-      print(movie_list)
+      add_movies("Catch Me if You Can","Steven Speilberg","2002","2h21m")
+      for movie in movie_list:
+         print(movie)
 
 main()   
